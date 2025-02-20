@@ -1,8 +1,8 @@
-import type { Align, Color, Variant, Weight } from './types'
+import type { Align, ColorTypes, Variant, Weight } from './types'
 
 import { ComponentPropsWithoutRef, forwardRef } from 'react'
 
-import { Slot } from '@radix-ui/react-slot'
+// import { Slot } from '@radix-ui/react-slot'
 import { clsx } from 'clsx'
 
 import s from './typography.module.scss'
@@ -10,7 +10,7 @@ import s from './typography.module.scss'
 type Props = {
     align?: Align
     asChild?: boolean
-    color?: Color
+    color?: ColorTypes
     variant?: Variant
     weight?: Weight
 } & ComponentPropsWithoutRef<'span'>
@@ -21,7 +21,7 @@ export const Typography = forwardRef<HTMLSpanElement, Props>(
             align = 'inherit',
             asChild = false,
             className,
-            color = 'light-100',
+            color = 'gray-10',
             variant = 'regular14',
             weight = 'regular',
             ...props
