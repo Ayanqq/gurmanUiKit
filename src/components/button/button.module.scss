@@ -1,0 +1,60 @@
+.button {
+  all: unset;
+
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  padding: 16px 28px;
+
+  border-radius: 50px;
+
+  min-width: 125px;
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.accent {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.outlined {
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.secondary {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
+.largeIcon {
+  min-width:160px;
+}
+
+.small {
+  min-width: 100px;
+  height:40px;
+}
+
+.smallIcon {
+  min-width:130px;
+  height:40px;
+  padding:10px 16px;
+}
+
+.tablet {
+  min-width: 90px;
+  height:32px;
+  padding:7px 16px;
+}
+
+
+
