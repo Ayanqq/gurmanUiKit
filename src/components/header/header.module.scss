@@ -26,6 +26,8 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .header {
     padding: 16px 0;
+    display:flex;
+    gap:46px;
   }
 
   .logo img {
