@@ -1,11 +1,11 @@
-import type { Align, ColorTypes, Variant, Weight } from './types'
+import type {Align, ColorTypes, Variant, Weight} from './types'
 
-import { ComponentPropsWithoutRef, forwardRef } from 'react'
+import {ComponentPropsWithoutRef, forwardRef} from 'react'
 
-// import { Slot } from '@radix-ui/react-slot'
-import { clsx } from 'clsx'
+import {Slot} from '@radix-ui/react-slot'
+import {clsx} from 'clsx'
 
-import s from './typography.module.scss'
+import * as s from './typography.module.scss'
 
 type Props = {
     align?: Align
@@ -34,11 +34,11 @@ export const Typography = forwardRef<HTMLSpanElement, Props>(
             <Comp
                 className={clsx(
                     s[variant],
-                    color && s[color-${color}],
-                    align && s[text-align-${align}],
-                    weight && s[font-weight-${weight}],
+                    color && s[`color-${color}`],
+                    align && s[`text-align-${align}`],
+                    weight && s[`font-weight-${weight}`],
                     className
-                    )}
+                )}
                 ref={ref}
                 {...props}
             />
