@@ -1,17 +1,43 @@
 export type Variant =
-    | 'bold14'
-    | 'bold16'
-    | 'h1'
-    | 'h2'
-    | 'h3'
-    | 'large'
-    | 'medium'
-    | 'regular-link'
-    | 'regular14'
-    | 'regular16'
-    | 'small'
-    | 'small-link'
-    | 'small-semi-bold'
+    | "regular12"
+    | "semibold12"
+    | "bold12"
+    | "regular14"
+    | "semibold14"
+    | "bold14"
+    | "regular16"
+    | "semibold16"
+    | "bold16"
+    | "regular18"
+    | "semibold18"
+    | "bold18"
+    | "regular20"
+    | "semibold20"
+    | "bold20"
+    | "regular24"
+    | "semibold24"
+    | "bold24"
+    | "regular30"
+    | "semibold30"
+    | "bold30"
+    | "regular36"
+    | "semibold36"
+    | "bold36"
+    | "regular48"
+    | "semibold48"
+    | "bold48"
+    | "regular60"
+    | "semibold60"
+    | "bold60"
+    | "regular72"
+    | "semibold72"
+    | "bold72"
+    | "regular96"
+    | "semibold96"
+    | "bold96"
+    | "regular128"
+    | "semibold128"
+    | "bold128";
 
 export type ColorTypes =
     | "primary"
