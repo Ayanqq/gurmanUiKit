@@ -21,8 +21,8 @@ export const Typography = forwardRef<HTMLSpanElement, Props>(
       align = "inherit",
       asChild = false,
       className,
-      color = "gray-10",
-      size = "regular14",
+      color = "black",
+      size = "16",
       weight = "regular",
       ...props
     },
@@ -34,7 +34,7 @@ export const Typography = forwardRef<HTMLSpanElement, Props>(
     return (
       <Comp
         className={clsx(
-          s[size],
+          s[`size-${size}`],
           s[`color-${color}`],
           align && s[`text-align-${align}`],
           weight && s[`font-weight-${weight}`],

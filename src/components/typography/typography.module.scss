@@ -69,7 +69,7 @@
   @extend %font-regular;
 }
 
-.font-weight-semibold {
+.font-weight-semi-bold {
   @extend %font-semibold;
 }
 
@@ -149,159 +149,55 @@
 
 // Сбор классов для вариантов
 
-.regular12 {
-  @extend %size-xs, %font-regular;
+.size-12 {
+  @extend %size-xs;
 }
 
-.semibold12 {
- @extend %size-xs, %font-semibold;
+.size-14 {
+  @extend %size-sm
 }
 
-.bold12 {
-  @extend %size-xs, %font-bold;
+.size-16 {
+  @extend %size-base;
 }
 
-.regular14 {
-  @extend %size-sm, %font-regular;
+.size-18 {
+  @extend %size-lg;
 }
 
-.semibold14 {
-  @extend %size-sm, %font-semibold;
+.size-20 {
+  @extend %size-xl;
 }
 
-.bold14 {
-  @extend %size-sm, %font-bold;
+.size-24 {
+  @extend %size-2xl;
 }
 
-.regular16 {
-  @extend %size-base, %font-regular;
+.size-30 {
+  @extend %size-3xl;
 }
 
-.semibold16 {
-  @extend %size-base, %font-semibold;
+.size-36 {
+  @extend %size-4xl;
 }
 
-.bold16 {
-  @extend %size-base, %font-bold;
+.size-48 {
+  @extend %size-5xl;
 }
 
-.regular18 {
-  @extend %size-lg, %font-regular;
+.size-60 {
+  @extend %size-6xl;
 }
 
-.semibold18 {
-  @extend %size-lg, %font-semibold;
+.size-72 {
+  @extend %size-7xl;
 }
 
-.bold18 {
-  @extend %size-lg, %font-bold;
+.size-96 {
+  @extend %size-8xl;
 }
 
-.regular20 {
-  @extend %size-xl, %font-regular;
-}
-
-.semibold20 {
-  @extend %size-xl, %font-semibold;
-}
-
-.bold20 {
-  @extend %size-xl, %font-bold;
-}
-
-.regular24 {
-  @extend %size-2xl, %font-regular;
-}
-
-.semibold24 {
-  @extend %size-2xl, %font-semibold;
-}
-
-.bold24 {
-  @extend %size-2xl, %font-bold;
-}
-
-.regular30 {
-  @extend %size-3xl, %font-regular;
-}
-
-.semibold30 {
-  @extend %size-3xl, %font-semibold;
-}
-
-.bold30 {
-  @extend %size-3xl, %font-bold;
-}
-
-.regular36 {
-  @extend %size-4xl, %font-regular;
-}
-
-.semibold36 {
-  @extend %size-4xl, %font-semibold;
-}
-
-.bold36 {
-  @extend %size-4xl, %font-bold;
-}
-
-.regular48 {
-  @extend %size-5xl, %font-regular;
-}
-
-.semibold48 {
-  @extend %size-5xl, %font-semibold;
-}
-
-.bold48 {
-  @extend %size-5xl, %font-bold;
-}
-
-.regular60 {
-  @extend %size-6xl, %font-regular;
-}
-
-.semibold60 {
-  @extend %size-6xl, %font-semibold;
-}
-
-.bold60 {
-  @extend %size-6xl, %font-bold;
-}
-
-.regular72 {
-  @extend %size-7xl, %font-regular;
-}
-
-.semibold72 {
-  @extend %size-7xl, %font-semibold;
-}
-
-.bold72 {
-  @extend %size-7xl, %font-bold;
-}
-
-.regular96 {
-  @extend %size-8xl, %font-regular;
-}
-
-.semibold96 {
-  @extend %size-8xl, %font-semibold;
-}
-
-.bold96 {
-  @extend %size-8xl, %font-bold;
-}
-
-.regular128 {
-  @extend %size-9xl, %font-regular;
-}
-
-.semibold128 {
-  @extend %size-9xl, %font-semibold;
-}
-
-.bold128 {
-  @extend %size-9xl, %font-bold;
+.size-128 {
+  @extend %size-9xl;
 }
 
