@@ -34,6 +34,7 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
             {label}
           </label>
         )}
+
         <div className={clsx(s.inputWrapper, !!label && s.withLabel)}>
           <input
             className={classNames}

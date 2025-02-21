@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { useEffect, useRef, useState } from "react";
+// import { useEffect, useRef, useState } from "react";
 
 import { Input } from "./input";
 
@@ -60,40 +60,40 @@ export const Disabled: Story = {
   },
 };
 
-export const Controlled: Story = {
-  args: {
-    label: "Label text",
-    placeholder: "Placeholder text",
-  },
-  render: (args) => {
-    const [value, setValue] = useState("useState text");
+// export const Controlled: Story = {
+//   args: {
+//     label: "Label text",
+//     placeholder: "Placeholder text",
+//   },
+//   render: (args) => {
+//     const [value, setValue] = useState("useState text");
 
-    return (
-      <Input
-        onChange={(e) => setValue(e.target.value)}
-        value={value}
-        {...args}
-      />
-    );
-  },
-};
+//     return (
+//       <Input
+//         onChange={(e) => setValue(e.target.value)}
+//         value={value}
+//         {...args}
+//       />
+//     );
+//   },
+// };
 
-export const Ref: Story = {
-  args: {
-    label: "Label text",
-    placeholder: "Placeholder text",
-  },
-  render: (args) => {
-    const ref = useRef<HTMLInputElement | null>(null);
+// export const Ref: Story = {
+//   args: {
+//     label: "Label text",
+//     placeholder: "Placeholder text",
+//   },
+//   render: (args) => {
+//     const ref = useRef<HTMLInputElement | null>(null);
 
-    useEffect(() => {
-      if (ref.current) {
-        console.log("Ref element:", ref.current);
-        // Пример изменения стиля для демонстрации работы с ref
-        ref.current.style.border = "2px solid green";
-      }
-    }, []);
+//     useEffect(() => {
+//       if (ref.current) {
+//         console.log("Ref element:", ref.current);
+//         // Пример изменения стиля для демонстрации работы с ref
+//         ref.current.style.border = "2px solid green";
+//       }
+//     }, []);
 
-    return <Input {...args} ref={ref} />;
-  },
-};
+//     return <Input {...args} ref={ref} />;
+//   },
+// };
