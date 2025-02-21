@@ -14,7 +14,7 @@ export const Header = ({}:HeaderProps) => {
             <div className={s.logo}>
                 <img src={logo} alt="logo"/>
             </div>
-            <div className={s.menuListContainer}>
+            <nav className={s.menuListContainer}>
                 <ul className={s.menuList}>
                     <Typography asChild size={'18'} color={'white'}>
                         <li>Главная</li>
@@ -39,7 +39,7 @@ export const Header = ({}:HeaderProps) => {
                     </li>
                 </ul>
 
-            </div>
+            </nav>
         </header>
     );
 };
