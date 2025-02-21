@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "storybook dev -p 6006",
+    "dev": "storybook dev -p 8080",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
     "@radix-ui/react-slot": "^1.1.2",
     "clsx": "^2.1.1",
     "react": "^19.0.0",
@@ -28,8 +29,9 @@
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
     "sass": "^1.85.0",
-    "storybook": "7.5.3",
+    "storybook": "^8.5.8",
     "typescript": "~5.7.2",
     "vite": "^6.1.0"
-  }
+  },
+  "packageManager": "pnpm"
 }
