@@ -5,7 +5,7 @@ import { ComponentPropsWithoutRef, forwardRef } from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { clsx } from "clsx";
 
-import * as s from "./typography.module.scss";
+import s from "./typography.module.scss";
 
 type Props = {
   align?: Align;

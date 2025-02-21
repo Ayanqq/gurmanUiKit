@@ -16,3 +16,11 @@ export const Default: Story = {
     children: "Пример текста",
   },
 };
+
+export const Xl = {
+  args: {
+    asChild:true,
+    children: <h1>Заголовок h1</h1>,
+    variant: 'regular18'
+  }
+}
