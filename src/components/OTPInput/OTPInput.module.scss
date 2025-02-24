@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.label {
+  font-size: var(--font-size-sm);
+  color: black;
+}
+
+.otpWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.otpGroup {
+  display: flex;
+
+  :not(:last-child):not(:first-child) {
+    border-radius: 0;
+  }
+  :first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  :last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
+.otpInput {
+  width: 2.5rem; // 40px
+  height: 2.5rem;
+  font-size: var(--font-size-base);
+  text-align: center;
+  border: 1px solid var(--color-gray-25);
+  border-radius: 0.5rem;
+  background-color: var(--color-white);
+  transition: border 0.2s ease;
+
+  &:focus {
+    border-color: var(--color-primary);
+    outline: none;
+  }
+}
+
+.separator {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.helpText {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-50);
+}
