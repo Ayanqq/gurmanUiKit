@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { Footer_PC } from "./index";
+import { Footer_Mobile } from "./index";
 
 const meta = {
-  component: Footer_PC,
+  component: Footer_Mobile,
   tags: ["autodocs"],
-  title: "Components/Footer_PC",
-} satisfies Meta<typeof Footer_PC>;
+  title: "Components/Footer_Mobile",
+} satisfies Meta<typeof Footer_Mobile>;
 
 export default meta;
 

@@ -1,6 +1,6 @@
 import { Typography } from "../typography";
 import s from "./footer.module.scss";
-import logo_img from "../../assets/images/logo/logo.png";
+import logo_img from "../../assets/images/logo/logo_l.png";
 import inst_img from "../../assets/images/socials/instagram.png";
 import whatsapp_img from "../../assets/images/socials/whatsapp.png";
 import tg_img from "../../assets/images/socials/telegram.png";
