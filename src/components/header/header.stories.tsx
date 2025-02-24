@@ -1,8 +1,8 @@
-import type { Meta, StoryObj } from "@storybook/react";
+import type {Meta, StoryObj} from "@storybook/react";
 
 // import { useEffect, useRef, useState } from "react";
 
-import { Header } from "./header.tsx";
+import {Header} from "./header.tsx";
 
 const meta = {
     component: Header,
@@ -15,6 +15,18 @@ type Story = StoryObj<typeof meta>;
 
 export const HeaderPC: Story = {
     args: {
-        // placeholder: "Placeholder text",
+        variant: 'pc'
     },
 };
+
+export const HeaderTablet: Story = {
+    args: {
+        variant: 'tablet'
+    }
+}
+
+export const HeaderMobile: Story = {
+    args: {
+        variant: 'mobile'
+    }
+}
