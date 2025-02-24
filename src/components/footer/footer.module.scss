@@ -1,0 +1,54 @@
+.footerWrapper {
+  width: 100%;
+  padding: 5.25rem clamp(1.5rem, 9.8214vw + -4.7857rem, 7rem);
+  background-color: var(--color-primary);
+  * {
+    color: var(--color-white);
+  }
+  hr {
+    margin: 2.5rem 0;
+  }
+}
+
+.footer {
+  margin: 0 auto;
+  .logo {
+    width: 200px;
+    height: 32px;
+  }
+}
+
+.footerNav {
+  display: flex;
+  justify-content: space-between;
+
+  .links {
+    margin-top: 1.25rem;
+    display: grid;
+    gap: 1.25rem clamp(1rem, 7.1429vw + -3.5714rem, 5rem);
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3, auto);
+  }
+
+  .navItemLogoSection {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    .socials {
+      display: flex;
+      gap: 1.5rem;
+    }
+  }
+}
+
+.footerBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .downloadLinks {
+    display: flex;
+    gap: 1.5rem;
+  }
+}
